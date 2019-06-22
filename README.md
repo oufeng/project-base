@@ -16,6 +16,16 @@
 
     支持Sass语法
 
+## 使用
+
+```bash
+git clone git@github.com:oufeng/project-base.git test
+
+cd test/
+
+rm -rf .git/ && rm README.md
+```
+
 ## 参考
 
 - https://oufeng.github.io/blog/vscore-setting/
