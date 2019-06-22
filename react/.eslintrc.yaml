@@ -1,0 +1,7 @@
+extends:
+  - 'standard'
+  - 'standard-react'
+  - 'plugin:prettier/recommended'
+# 遇到浏览器不兼容的代码引发警告。与browserslist配合使用。
+plugins:
+  - 'compat'

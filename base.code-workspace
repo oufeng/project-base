@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "path": "node"
+    },
+    {
+      "path": "react"
+    }
+  ],
+  "settings": {
+    // 提高项目目录的颜值
+    "workbench.iconTheme": "vscode-icons",
+    // 有些文件vscode不用跟踪，降低内存的消耗
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.DS_Store": true,
+      "**/bower_components": true,
+      "**/jspm_packages": true,
+      "**/node_modules": true
+    },
+    // 个人比较喜欢的主题
+    "workbench.colorTheme": "Monokai",
+    // 失去焦点时将自动保存文件
+    "files.autoSave": "onFocusChange",
+    // 文件编码
+    "files.encoding": "utf8",
+    // 禁用自带的JavaScript验证规则,信赖Eslint
+    "javascript.validate.enable": false,
+    // 默认行尾字符为lf(Mac开发为主,Windows开发为辅)
+    "files.eol": "\n",
+    // 一个制表符等于两个空格，编辑器层面
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    // 保存文件时在文件末尾插入一个新行
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    // 保存文件时剪裁尾随空格
+    "eslint.autoFixOnSave": true,
+  }
+}

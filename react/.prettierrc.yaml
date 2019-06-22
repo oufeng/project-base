@@ -1,0 +1,11 @@
+printWidth: 80                # 代码的长度不超过120
+tabWidth: 2                   # tab键占用两个空格
+useTabs: false                # tab会转化成为两个空格
+semi: true                    # 在语句结尾处使用分号
+singleQuote: false            # 使用双引号
+quoteProps: "as-needed"       # 仅在需要时才在对象属性添加引号
+jsxSingleQuote: false         # JSX中使用双引号
+trailingComma: "es5"          # 在ES5中有效的尾随逗号
+bracketSpacing: true          # {foo: bar} => { foo: bar }
+jsxBracketSameLine: false     # 将JSX的>元素另起一行，不要放在行尾
+arrowParens: 'avoid'          # 箭头函数的参数尽量省略括号。x => x 而不是 (x) => x
