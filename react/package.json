@@ -1,4 +1,8 @@
 {
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "react",
+  "main": "",
   "devDependencies": {
     "eslint": "^6.0.0",
     "eslint-config-prettier": "^5.0.0",
@@ -12,5 +16,14 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
     "prettier": "^1.18.2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "vscode"
+  ],
+  "author": "jeff",
+  "license": "MIT"
 }
