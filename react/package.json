@@ -4,6 +4,9 @@
   "description": "react",
   "main": "",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
     "eslint": "^6.0.0",
     "eslint-config-prettier": "^5.0.0",
     "eslint-config-standard": "^12.0.0",
@@ -15,10 +18,12 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "//test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
   },
   "keywords": [
     "react",
